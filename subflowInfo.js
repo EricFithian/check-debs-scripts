@@ -30,9 +30,9 @@ function childProcess(flow, path) {
 }
 
 exportedDomains.forEach(domain => {
-    let domainFlows = require(`./${domain}/deb_flow/deb_flow_list`);
+    let domainFlows = require(`../${domain}/deb_flow/deb_flow_list`);
     domainFlows.forEach(flow => {
-        let path = `./${domain}/deb_flow/`;
+        let path = `../${domain}/deb_flow/`;
         if(flow.type === 'FOLDER') {
             scrapeDirectory(flow.name, flow.children, path);
         }
