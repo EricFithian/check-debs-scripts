@@ -1,0 +1,13 @@
+{
+  "name": "subflow_parents",
+  "github": "https://github.com/EricFithian/check-debs-scripts",
+  "version": "1.0.0",
+  "module": "json",
+  "description": "This will let you check all the places subflows are included in larger conversational flows",
+  "main": "subflowInfo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Fithian",
+  "license": "ISC"
+}
